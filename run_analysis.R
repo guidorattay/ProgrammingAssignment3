@@ -14,6 +14,8 @@
     #From the data set in step 4, creates a second, independent tidy data set 
     #with the average of each variable for each activity and each subject.
 
+#set your data files folder as the working directory!!
+
 mean_and_sd<-c("TotalBodyAcc-mean-X","TotalBodyAcc-mean-Y","TotalBodyAcc-mean-Z",
                "TotalBodyAcc-std-X","TotalBodyAcc-std-Y","TotalBodyAcc-std-Z")
 
@@ -72,7 +74,7 @@ head(df)
 
 #Second, independent dataset:
 
-#I need to change to numeric values. Could make it work with a loop.
+#I need to change to numeric values. Could not make it work with a loop.
 
 num_df3<-as.numeric(as.character(df[,3]))
 num_df4<-as.numeric(as.character(df[,4]))
