@@ -1,0 +1,32 @@
+Code Book - Guido Rattay
+
+This file describes the variables in both dataframes.
+
+df: This dataframe shows the mean and the standard deviation of the Total Body Acceleration for the X, Y and Z axis
+	for each measurement of each activity of each subject.
+
+	Column 1 -Subject: 30 subjects were evaluated
+	Column 2 -Activity: The acceleration data were collected for 6 different activities, including
+	"standing","sitting","laying","walking", "walking_downstairs", and "walking_upstairs"
+
+	Columns 3 to 8:
+		3."TotalBodyAcc-mean-X": mean of the Total Body Acceleration for the X axis
+		4."TotalBodyAcc-mean-Y": mean of the Total Body Acceleration for the Y axis
+		5."TotalBodyAcc-mean-Z": mean of the Total Body Acceleration for the Z axis
+		6."TotalBodyAcc-std-X": standard deviation of the Total Body Acceleration for the X axis
+		7."TotalBodyAcc-std-Y": standard deviation of the Total Body Acceleration for the Y axis
+		8."TotalBodyAcc-std-Z": standard deviation of the Total Body Acceleration for the Z axis
+
+tidy_df: This dataframe shows the average of each variable for each activity and each subject.
+
+	Column 1 -Subject: 30 subjects were evaluated
+	Column 2 -Activity: The acceleration data were collected for 6 different activities, including
+	"standing","sitting","laying","walking", "walking_downstairs", and "walking_upstairs"
+
+	Columns 3 to 8:
+		3."TotalBodyAcc-mean-X": mean of the mean Total Body Acceleration for the X axis for a each activity of a given subject.
+		4."TotalBodyAcc-mean-Y": mean of the of the Total Body Acceleration for the Y axis for a each activity of a given subject.
+		5."TotalBodyAcc-mean-Z": mean of the mean of the Total Body Acceleration for the Z axis for a each activity of a given subject.
+		6."TotalBodyAcc-std-X": mean of the standard deviation of the Total Body Acceleration for the X axis for a each activity of a given subject.
+		7."TotalBodyAcc-std-Y": mean of the standard deviation of the Total Body Acceleration for the Y axis for a each activity of a given subject.
+		8."TotalBodyAcc-std-Z": mean of the standard deviation of the Total Body Acceleration for the Z axis for a each activity of a given subject.
